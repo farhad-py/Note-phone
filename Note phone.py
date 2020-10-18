@@ -61,7 +61,7 @@ def Edit():
         print("4.cheng mobile number")
         print("5.cheng address")
         print("6.cheng mobile number2")
-        edit=int(input("gozine morde nzr ra vard konid = "))
+        edit=int(input("input one number = "))
         if edit==1:
             name=input("plz enter new name = ")
             Name[num]=name
@@ -106,7 +106,7 @@ def show_all(Name,Famely,Home,Mobile,Address,Tell2):
 
 while True:
     menu()
-    Menu=int(input("gozine mord nzr ra vard konid = "))
+    Menu=int(input("input one number = "))
     if Menu==1:
         add(Name,Famely,Home,Mobile,Address,Mobile2)     
     if Menu==2:
